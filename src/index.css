@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .page-break-before {
+    break-before: page;
+    /* add space below page break */
+    padding-top: 1.5cm; /* adjust this value as needed */
+  }
+}
+
